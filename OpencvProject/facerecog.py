@@ -11,6 +11,7 @@ cap = cv2.VideoCapture(camera_index)
 
 while True:
     ret, img = cap.read()
+    img = cv2.flip(img, -1)
     cv2.imshow('Press ESC key to close this window', img)
     k = cv2.waitKey(30)
 
