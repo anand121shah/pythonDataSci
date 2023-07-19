@@ -9,13 +9,15 @@ student = {
     'id': 12345
 }
 
-@app.route('/', methods=['GET'])
-def get_student_details():
-    return jsonify({
-        'name': student['name'],
-        'marks': student['marks'],
-        'id': student['id']
-    })
+# Route to show your name
+@app.route('/students', methods=['GET'])
+def show_name():
+    return "Your name"
+
+# Dynamic route to print student's name
+@app.route('/students/<name>', methods=['GET'])
+def get_student_name(name):
+    return f"Student Name is {name}"
 
 if __name__ == '__main__':
-    app.run()
+    app.run(port=5000)
