@@ -1,0 +1,42 @@
+#1) A;  newList = listOne + listTwo
+#2) C; Y 16
+#3) A;  40 [20, 30, 40]
+#4) B;  [30, 40, 50]
+[10, 20, 30, 40]
+[40, 50, 60, 70, 80]
+#5) B;  [10, 20, 30, 40, 50, 60]
+[10, 20, 30, 40, 50, 60, 60]
+#6) B;  Hello-Python
+#7) B; True
+#8) A;  [‘Hello Dear’, ‘Hello Bye’, ‘Good Dear’, ‘Good Bye’]
+#9) B; [25, 10]
+#10) B;  zara
+#11) A; [2, 4, 6, 8, 10, 12, 14]
+#12) A;  []
+#13) B;  [4, 20, 24, 28]
+#14) A;  10
+#15) B,C;  newList = aList.copy(),  newList = list(aList)
+#16) C;  [10, 20, 30, 40]
+[10, 20, 40]
+#17) B;  {‘Pink’, ‘Blue’}
+#18) B;  True
+True
+#19) A; True
+#20) A;  {‘Yellow’, ‘Orange’, ‘Black’}
+#21) B;  Syntax Error
+#22) A;  {‘Yellow’, ‘Orange’, ‘Red’, ‘Black’, ‘Green’, ‘Blue’}
+#23) B;  True
+#24) A; set2 = set1.copy()
+set2 = set(set1)
+set2.update(set1)
+#25) C;  TypeError
+#26) A; Sets are unordered
+set doesn’t allow duplicate
+sets are written with curly brackets {}
+#27) C;  {40, 10, ’10’, 50, 20, 60, 30}
+#28) A;  True
+#29) C;  {‘PYnative’, 1, (‘abc’, ‘xyz’)}
+#30) A; {‘Black’, ‘Yellow’}
+#31) A;  {‘Blue’, ‘Orange’, ‘Yellow’, ‘Orange’, ‘Black’}
+#32) B;  sampleSet.discard("Orange")
+
